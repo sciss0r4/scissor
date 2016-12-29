@@ -1,0 +1,17 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\x64\liblept168.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\x64\libtesseract302.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\x86\liblept168.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\x86\libtesseract302.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\OcrEngine.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\OcrEngine.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\Shared.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\Tesseract.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\EntityFramework.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\Shared.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\Tesseract.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\DatabaseModels.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\bin\Release\EntityFramework.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\obj\Release\OcrEngine.csprojResolveAssemblyReference.cache
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\obj\Release\OcrEngine.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrEngine\obj\Release\OcrEngine.pdb

@@ -1,0 +1,11 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Release\OcrFileOperations.dll.config
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Release\OcrFileOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Release\OcrFileOperations.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Release\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Release\EntityFramework.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Release\DatabaseModels.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Release\EntityFramework.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\obj\Release\OcrFileOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\obj\Release\OcrFileOperations.pdb

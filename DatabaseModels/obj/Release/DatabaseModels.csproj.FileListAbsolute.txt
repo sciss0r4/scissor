@@ -1,0 +1,9 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Release\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Release\DatabaseModels.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Release\EntityFramework.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Release\EntityFramework.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\obj\Release\DatabaseModels.csprojResolveAssemblyReference.cache
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\obj\Release\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\obj\Release\DatabaseModels.pdb

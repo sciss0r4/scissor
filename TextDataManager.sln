@@ -1,0 +1,139 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextDataManager", "TextDataManager\TextDataManager.csproj", "{CF89D11F-6269-4599-97E4-0366E06DD581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcrEngine", "OcrEngine\OcrEngine.csproj", "{AEE3D9DE-D4EC-4BE1-872C-F096DD5D42FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextDataManagetUT", "TextDataManagetUT\TextDataManagetUT.csproj", "{E5FDA3DB-C312-4897-B305-63F9BB70ACB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{8D19FFA3-CED1-41B2-AF4F-AC57744096FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseModels", "DatabaseModels\DatabaseModels.csproj", "{4E7D2EF0-D837-4A17-99F9-5270FFE63DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{9E4EF5B6-5D0E-4795-BB92-6B91F3CAC494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileRepositoryOperations", "FileRepositoryOperations\FileRepositoryOperations.csproj", "{6DE73563-6F38-45D3-B56C-253B630DA51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiffFileOperations", "TiffFileOperations\TiffFileOperations.csproj", "{45F0F887-6DB0-4817-B76E-74991BA4FFD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "ViewModels\ViewModels.csproj", "{0FBC9346-2E4B-4441-885D-52A7EAC0E725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcrFileOperations", "OcrFileOperations\OcrFileOperations.csproj", "{5D126755-EC22-4AF9-91EB-5ACB27CAE4C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexingEngine", "IndexingEngine\IndexingEngine.csproj", "{AD03F078-DEFA-47C4-993B-630DB9819FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexRepositoryOperations", "IndexRepositoryOperations\IndexRepositoryOperations.csproj", "{47788C7E-3D2C-4078-92FC-89154E35F6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomViews", "CustomViews\CustomViews.csproj", "{9CE7750E-C084-41AC-932E-5CA936F3E913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF89D11F-6269-4599-97E4-0366E06DD581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF89D11F-6269-4599-97E4-0366E06DD581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF89D11F-6269-4599-97E4-0366E06DD581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF89D11F-6269-4599-97E4-0366E06DD581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE3D9DE-D4EC-4BE1-872C-F096DD5D42FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE3D9DE-D4EC-4BE1-872C-F096DD5D42FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE3D9DE-D4EC-4BE1-872C-F096DD5D42FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE3D9DE-D4EC-4BE1-872C-F096DD5D42FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FDA3DB-C312-4897-B305-63F9BB70ACB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FDA3DB-C312-4897-B305-63F9BB70ACB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FDA3DB-C312-4897-B305-63F9BB70ACB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FDA3DB-C312-4897-B305-63F9BB70ACB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D19FFA3-CED1-41B2-AF4F-AC57744096FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D19FFA3-CED1-41B2-AF4F-AC57744096FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D19FFA3-CED1-41B2-AF4F-AC57744096FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D19FFA3-CED1-41B2-AF4F-AC57744096FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7D2EF0-D837-4A17-99F9-5270FFE63DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7D2EF0-D837-4A17-99F9-5270FFE63DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7D2EF0-D837-4A17-99F9-5270FFE63DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7D2EF0-D837-4A17-99F9-5270FFE63DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4EF5B6-5D0E-4795-BB92-6B91F3CAC494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4EF5B6-5D0E-4795-BB92-6B91F3CAC494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4EF5B6-5D0E-4795-BB92-6B91F3CAC494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4EF5B6-5D0E-4795-BB92-6B91F3CAC494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE73563-6F38-45D3-B56C-253B630DA51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE73563-6F38-45D3-B56C-253B630DA51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE73563-6F38-45D3-B56C-253B630DA51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE73563-6F38-45D3-B56C-253B630DA51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F0F887-6DB0-4817-B76E-74991BA4FFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F0F887-6DB0-4817-B76E-74991BA4FFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F0F887-6DB0-4817-B76E-74991BA4FFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F0F887-6DB0-4817-B76E-74991BA4FFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBC9346-2E4B-4441-885D-52A7EAC0E725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBC9346-2E4B-4441-885D-52A7EAC0E725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBC9346-2E4B-4441-885D-52A7EAC0E725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBC9346-2E4B-4441-885D-52A7EAC0E725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D126755-EC22-4AF9-91EB-5ACB27CAE4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D126755-EC22-4AF9-91EB-5ACB27CAE4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D126755-EC22-4AF9-91EB-5ACB27CAE4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D126755-EC22-4AF9-91EB-5ACB27CAE4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD03F078-DEFA-47C4-993B-630DB9819FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD03F078-DEFA-47C4-993B-630DB9819FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD03F078-DEFA-47C4-993B-630DB9819FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD03F078-DEFA-47C4-993B-630DB9819FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47788C7E-3D2C-4078-92FC-89154E35F6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47788C7E-3D2C-4078-92FC-89154E35F6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47788C7E-3D2C-4078-92FC-89154E35F6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47788C7E-3D2C-4078-92FC-89154E35F6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE7750E-C084-41AC-932E-5CA936F3E913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE7750E-C084-41AC-932E-5CA936F3E913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE7750E-C084-41AC-932E-5CA936F3E913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE7750E-C084-41AC-932E-5CA936F3E913}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://krystianzrodlowski.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TextDataManager\\TextDataManager.csproj
+		SccProjectName1 = TextDataManager
+		SccLocalPath1 = TextDataManager
+		SccProjectUniqueName2 = OcrEngine\\OcrEngine.csproj
+		SccProjectName2 = OcrEngine
+		SccLocalPath2 = OcrEngine
+		SccProjectUniqueName3 = TextDataManagetUT\\TextDataManagetUT.csproj
+		SccProjectName3 = TextDataManagetUT
+		SccLocalPath3 = TextDataManagetUT
+		SccProjectUniqueName4 = Shared\\Shared.csproj
+		SccProjectName4 = Shared
+		SccLocalPath4 = Shared
+		SccProjectUniqueName5 = DatabaseModels\\DatabaseModels.csproj
+		SccProjectName5 = DatabaseModels
+		SccLocalPath5 = DatabaseModels
+		SccProjectUniqueName6 = Controllers\\Controllers.csproj
+		SccProjectName6 = Controllers
+		SccLocalPath6 = Controllers
+		SccProjectUniqueName7 = FileRepositoryOperations\\FileRepositoryOperations.csproj
+		SccProjectName7 = FileRepositoryOperations
+		SccLocalPath7 = FileRepositoryOperations
+		SccProjectUniqueName8 = TiffFileOperations\\TiffFileOperations.csproj
+		SccProjectName8 = TiffFileOperations
+		SccLocalPath8 = TiffFileOperations
+		SccProjectUniqueName9 = ViewModels\\ViewModels.csproj
+		SccProjectName9 = ViewModels
+		SccLocalPath9 = ViewModels
+		SccProjectUniqueName10 = OcrFileOperations\\OcrFileOperations.csproj
+		SccProjectName10 = OcrFileOperations
+		SccLocalPath10 = OcrFileOperations
+		SccProjectUniqueName11 = IndexingEngine\\IndexingEngine.csproj
+		SccProjectName11 = IndexingEngine
+		SccLocalPath11 = IndexingEngine
+		SccProjectUniqueName12 = IndexRepositoryOperations\\IndexRepositoryOperations.csproj
+		SccProjectName12 = IndexRepositoryOperations
+		SccLocalPath12 = IndexRepositoryOperations
+		SccProjectUniqueName13 = CustomViews\\CustomViews.csproj
+		SccProjectName13 = CustomViews
+		SccLocalPath13 = CustomViews
+	EndGlobalSection
+EndGlobal

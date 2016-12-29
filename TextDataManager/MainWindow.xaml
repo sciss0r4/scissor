@@ -1,0 +1,160 @@
+﻿<Window x:Class="TextDataManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextDataManager"
+        mc:Ignorable="d"
+        Title="TextDataManager" Background="Gold" ResizeMode="NoResize" 
+        DataContext="{StaticResource MainWindowViewModel}" Width="1250" Height="650">
+
+    <TabControl x:Name="tabControl">
+        <TabItem DataContext="{Binding Children[0]}" Header="File Management">
+            <Grid Background="Black">
+                <StackPanel HorizontalAlignment="Left" Width="400">
+                    <TextBlock FontSize="24" Foreground="LightGray">Repositories</TextBlock>
+                    <ListBox Height="500" ItemsSource="{Binding RepositoryList}" SelectedItem="{Binding SelectedRepository}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Label}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <Button Command="{Binding LoadDataToRepo, UpdateSourceTrigger=PropertyChanged}">Load data to Repository...</Button>
+                </StackPanel>
+
+                <StackPanel Width="400">
+                    <TextBlock FontSize="24" Foreground="LightGray">Files</TextBlock>
+                    <ListBox Height="500" ItemsSource="{Binding TiffFilesList, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Multiple" SelectedItem="{Binding SelectedTiff}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding OriginalFileName}">
+                                        <TextBlock.Style>
+                                            <Style TargetType="{x:Type TextBlock}">
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding HasOcr}" Value="false">
+                                                        <Setter Property="Foreground" Value="Red" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                        <ListBox.ItemContainerStyle>
+                            <Style TargetType="{x:Type ListBoxItem}">
+                                <Setter Property="IsSelected" Value="{Binding Mode=TwoWay, Path=IsSelected}"/>
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+                    </ListBox>
+                    <Button Command="{Binding ExtractOcr, UpdateSourceTrigger=PropertyChanged}">Extract OCR for selected files...</Button>
+                </StackPanel>
+
+                <StackPanel Width="400" HorizontalAlignment="Right">
+                    <StackPanel>
+                        <TextBlock FontSize="24" Foreground="LightGray">View</TextBlock>
+                    </StackPanel>
+                    <StackPanel>
+                        <Image Height="500" Source="{Binding Path=SelectedTiff.Path}" />
+                    </StackPanel>
+                    <!--<StackPanel>
+                        <TextBlock FontSize="18" Foreground="Azure">Metadata</TextBlock>
+                    </StackPanel>-->
+                </StackPanel>
+
+                <ProgressBar IsEnabled="True" VerticalAlignment="Bottom" Height="20" IsIndeterminate="{Binding Path=ProgressBarIndeterminate}" />
+            </Grid>
+        </TabItem>
+        <TabItem DataContext="{Binding Children[1]}" Header="Index Management">
+            <Grid Background="Black">
+                <StackPanel HorizontalAlignment="Left" Width="400">
+                    <TextBlock FontSize="24" Foreground="LightGray">Indexes</TextBlock>
+                    <ListBox Height="500" ItemsSource="{Binding Indexes}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Label}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+                <StackPanel Width="400" HorizontalAlignment="Center">
+                    <TextBlock FontSize="24" Foreground="LightGray">Extracted texts</TextBlock>
+                    <TreeView Height="500" ItemsSource="{Binding TreeItems, UpdateSourceTrigger=PropertyChanged}">
+                        <TreeView.ItemTemplate>
+                            <HierarchicalDataTemplate ItemsSource="{Binding Tiffs}">
+                                <StackPanel Orientation="Horizontal">
+                                    <CheckBox IsChecked="{Binding Repository.IsSelected}"/>
+                                    <TextBlock Text="{Binding Repository.Label}" />
+                                </StackPanel>
+                                <HierarchicalDataTemplate.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <CheckBox IsChecked="{Binding IsSelected}"/>
+                                            <TextBlock Text="{Binding OriginalFileName}" />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </HierarchicalDataTemplate.ItemTemplate>
+                            </HierarchicalDataTemplate>
+                        </TreeView.ItemTemplate>
+                    </TreeView>
+                    <Button IsEnabled="False">Select all documents...</Button>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Right" Width="400">
+                    <TextBlock FontSize="24" Foreground="LightGray">Operations</TextBlock>
+                    <Button Command="{Binding CreateIndex}">Create new index for selected documents</Button>
+                    <Button IsEnabled="False">Add selected documents to index</Button>
+                    <Button IsEnabled="False">Remove selected documents from index</Button>
+                    <TextBlock Foreground="Azure">Index Label</TextBlock>
+                    <TextBox Text="{Binding IndexLabel, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                </StackPanel>
+                <ProgressBar IsEnabled="True" VerticalAlignment="Bottom" Height="20" IsIndeterminate="{Binding Path=ProgressBarIndeterminate2}" />
+            </Grid>
+        </TabItem>
+        <TabItem DataContext="{Binding Children[2]}" Header="Search Engine">
+            <Grid Background="Black">
+                <StackPanel HorizontalAlignment="Left" Width="400">
+                    <TextBlock FontSize="24" Foreground="LightGray">Indexes</TextBlock>
+                    <ListBox Height="500" ItemsSource="{Binding Indexes}" SelectedItem="{Binding SelectedIndex}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Label}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Width="400">
+                    <TextBlock FontSize="24" Foreground="LightGray">Query</TextBlock>
+                    <TextBox Text="{Binding Query, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                    <Button Command="{Binding ExecuteQuery}">Run Query</Button>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Right" Width="400">
+                    <TextBlock FontSize="24" Foreground="LightGray">Results</TextBlock>
+                    <ListBox ItemsSource="{Binding QueryResults}" Height="500">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding OriginalFileName}">
+                                        <TextBlock.InputBindings>
+                                            <MouseBinding Command="{Binding ResultsClickCommand}" MouseAction="LeftDoubleClick" />
+                                        </TextBlock.InputBindings>
+                                    </TextBlock>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+                <ProgressBar IsEnabled="True" VerticalAlignment="Bottom" Height="20" IsIndeterminate="{Binding Path=ProgressBarIndeterminate3}" />
+            </Grid>
+        </TabItem>
+    </TabControl>
+    
+    
+</Window>

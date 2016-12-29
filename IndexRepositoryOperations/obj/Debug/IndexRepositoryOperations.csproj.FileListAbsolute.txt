@@ -1,0 +1,12 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Debug\IndexRepositoryOperations.dll.config
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Debug\IndexRepositoryOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Debug\IndexRepositoryOperations.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Debug\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Debug\EntityFramework.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Debug\DatabaseModels.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Debug\EntityFramework.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\obj\Debug\IndexRepositoryOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\obj\Debug\IndexRepositoryOperations.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\obj\Debug\IndexRepositoryOperations.csprojResolveAssemblyReference.cache

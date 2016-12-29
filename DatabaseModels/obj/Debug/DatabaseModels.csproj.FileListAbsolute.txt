@@ -1,0 +1,8 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Debug\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Debug\DatabaseModels.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Debug\EntityFramework.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Debug\EntityFramework.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\obj\Debug\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\DatabaseModels\obj\Debug\DatabaseModels.pdb

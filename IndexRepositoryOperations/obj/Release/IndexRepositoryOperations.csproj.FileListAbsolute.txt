@@ -1,0 +1,11 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Release\IndexRepositoryOperations.dll.config
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Release\IndexRepositoryOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Release\IndexRepositoryOperations.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Release\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Release\EntityFramework.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Release\DatabaseModels.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Release\EntityFramework.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\obj\Release\IndexRepositoryOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexRepositoryOperations\obj\Release\IndexRepositoryOperations.pdb

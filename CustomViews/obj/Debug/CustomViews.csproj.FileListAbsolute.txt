@@ -1,0 +1,15 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\bin\Debug\CustomViews.exe.config
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\bin\Debug\CustomViews.exe
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\bin\Debug\CustomViews.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\MainWindow.g.cs
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\TextQueryHighlighted.g.cs
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\App.g.cs
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\CustomViews_MarkupCompile.cache
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\CustomViews_MarkupCompile.lref
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\MainWindow.baml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\TextQueryHighlighted.baml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\CustomViews.g.resources
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\CustomViews.Properties.Resources.resources
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\CustomViews.csproj.GenerateResource.Cache
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\CustomViews.exe
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\CustomViews\obj\Debug\CustomViews.pdb

@@ -1,0 +1,9 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\Shared\bin\Release\Shared.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\Shared\bin\Release\Shared.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\Shared\bin\Release\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\Shared\bin\Release\EntityFramework.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\Shared\bin\Release\DatabaseModels.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\Shared\bin\Release\EntityFramework.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\Shared\obj\Release\Shared.csprojResolveAssemblyReference.cache
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\Shared\obj\Release\Shared.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\Shared\obj\Release\Shared.pdb

@@ -1,0 +1,12 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Debug\OcrFileOperations.dll.config
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Debug\OcrFileOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Debug\OcrFileOperations.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Debug\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Debug\EntityFramework.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Debug\DatabaseModels.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Debug\EntityFramework.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\obj\Debug\OcrFileOperations.csprojResolveAssemblyReference.cache
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\obj\Debug\OcrFileOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\OcrFileOperations\obj\Debug\OcrFileOperations.pdb

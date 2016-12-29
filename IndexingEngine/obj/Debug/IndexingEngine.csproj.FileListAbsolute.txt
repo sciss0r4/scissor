@@ -1,0 +1,8 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Debug\IndexingEngine.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Debug\IndexingEngine.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Debug\Lucene.Net.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Debug\Lucene.Net.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Debug\Lucene.Net.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\obj\Debug\IndexingEngine.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\obj\Debug\IndexingEngine.pdb

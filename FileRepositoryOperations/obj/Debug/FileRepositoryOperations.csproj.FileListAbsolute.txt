@@ -1,0 +1,13 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\FileRepositoryOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\FileRepositoryOperations.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\DatabaseModels.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\EntityFramework.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\Shared.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\DatabaseModels.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\Shared.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\EntityFramework.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\obj\Debug\FileRepositoryOperations.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\obj\Debug\FileRepositoryOperations.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\FileRepositoryOperations\obj\Debug\FileRepositoryOperations.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Release\IndexingEngine.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Release\IndexingEngine.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Release\Lucene.Net.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Release\Lucene.Net.pdb
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\bin\Release\Lucene.Net.xml
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\obj\Release\IndexingEngine.csprojResolveAssemblyReference.cache
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\obj\Release\IndexingEngine.dll
+C:\Users\kryst\Documents\ProjektInżynierski\TextDataManager\IndexingEngine\obj\Release\IndexingEngine.pdb
